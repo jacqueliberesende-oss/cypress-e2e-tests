@@ -1,6 +1,6 @@
 ## Testes E2E (Cypress)
 
-Este projeto contém testes automatizados E2E utilizando Cypress.
+Este projeto tem como objetivo validar os principais fluxos da aplicação utilizando testes automatizados com Cypress, garantindo a qualidade das funcionalidades críticas sob a perspectiva do usuário final.
 
 ### Estrutura atual
 
@@ -21,3 +21,13 @@ Os testes estão organizados da seguinte forma:
 
 - Utilização de seletores `data-test` sempre que possível
 - Foco em estabilidade e validação de fluxos críticos do usuário
+
+## Estrutura do Projeto
+
+```text
+cypress/
+├── e2e/
+│   ├── login.cy.js
+│   └── compras.cy.js
+├── fixtures/
+├── support/
